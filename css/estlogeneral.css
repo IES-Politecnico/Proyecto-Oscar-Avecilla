@@ -1,0 +1,19 @@
+table {
+    width: 25%;
+}
+
+td {
+    border: 1px solid white;
+}
+
+div{
+    color: white;
+}
+
+span{
+    color: red;
+}
+
+id{
+    color: red;
+}
