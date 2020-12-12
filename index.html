@@ -13,57 +13,124 @@
     <title>AMDINFONEWS</title>
 </head>
 
-<body style="background: url(https://logodix.com/logo/1154615.jpg);">
-    <header style="color: white;">
-        <h1><a href="./index.html">AMDINFONEWS</a></h1>
-        <nav style="color: white;"><a href="./articles/Noticia1.html">AMD Ryzen serie 5000</a> <a
-                href="./articles/Noticia3.html">Novedades sobre AMD</a> <a href="./articles/Noticia5.html">Gráficas
-                Radeon</a></nav>
+<body class="DarrexHD">
+    <header>
+        <figure class="Rettr0">
+            <h1><a href="./index.html">AMDINFONEWS</a></h1>
+            <picture>
+                <source media="(max-width: 799px)" srcset="./images/AMD-Coronavirus-killR.jpg">
+                <source media="(min-width: 800px)" srcset="./images/AMD-Coronavirus-kill.jpg">
+                <img src="images/AMD-Coronavirus-kill.jpg" alt="Portada">
+            </picture>
+            <nav><a class="button" href="#Ryzen5000">Ryzen 5000</a><a class="button" href="#Lomasnuevo">Novedades</a><a
+                    class="button" href="#graficasamd">Nuevas Radeon</a>
+
+            </nav>
+        </figure>
     </header>
-    <main style="color: white;">En esta págna encontrarás las noticias más nuevas y actualizadas de AMD.</main>
-    <h1 style="color:rgb(255, 255, 255); text-align: center;"><u>AMDINFONEWS</u></h1>
-    <hr style="border-color:rgb(0, 0, 0)">
-    <figure style="text-align: center;">
-        <picture>
-            <img src="images/AMD-Coronavirus-kill.jpg" alt="Portada" height="250"></picture>
-    </figure>
-    <div id="NoticiasRyzen5000" style="background: white;">
-        <p><a href="./articles/Noticia1.html">Rendimieneto y precio de los Ryzen 5000.</a></p>
-        <p><a href="./articles/Noticia2.html">Nueva arquitectura Zen 3.</a></p>
-    </div>
-    <div id="Novedadesyfiltraciones" style="background: red;">
-        <p><a href="./articles/Noticia3.html">Filtraciones Ryzen 6000.</a></p>
-        <p><a href="./articles/Noticia4.html">Nuevas gráficas RX 6000.</a></p>
-    </div>
-    <div id="RDNA2yconsolas" style="background: white;">
-        <p><a href="./articles/Noticia5.html">Ray Tracing en las nuevas gráficas de AMD.</a></p>
-        <p><a href="./articles/Noticia6.html">La tecnología de las nuevas consolas en tu ordenador.</a></p>
-    </div>
-    <h2 style="color:white"><a href="./articles/Noticia1.html">AMD acaba de presentar los Ryzen 5000</a></h2>
-    <figure>
-        <a href="./articles/Noticia1.html">
-            <picture>
-                <source media="(max-width: 799px)" srcset="images/AMD-Ryzen-5-5000-Series-20l2.jpg">
-                <source media="(min-width: 800px)" srcset="images/AMD-Ryzen-5-5000-Series-20.jpg">
-                <img src="images/AMD-Ryzen-5-5000-Series-20.jpg" alt="DarrexHD" height="350"></picture>
-        </a>
-        <figcaption style="color: white">Rendimiento y precios de los procesadores</figcaption>
-    </figure>
-    <p style="color: white">AMD acaba de presentar<a href="./articles/Noticia1.html">...Leer más</a></p>
-    <h2 style="color:white"><a href="./articles/Noticia2.html">La nueva arquitectura Zen 3</a></h2>
-    <figure>
-        <a href="./articles/Noticia2.html">
-            <picture>
-                <source media="(max-width: 799px)" srcset="images/Zen3750.png">
-                <source media="(min-width: 800px)" srcset="images/Zen3.png">
-                <img src="images/Zen3.png" alt="XD" height="350"></picture>
-        </a>
-    </figure>
-    <p style="color: white;">La frecuencia de reloj máxima<a href="./articles/Noticia2.html">...Leer más</a></p>
+    <main>
+        <section class="section1">
+            <h2>Noticias de los Ryzen 5000</h2>
+            <article>
+                <h2 id="Ryzen5000"><a href="./articles/Noticia1.html">AMD acaba de presentar los Ryzen 5000</a></h2>
+                <figure>
+                    <a href="./articles/Noticia1.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="images/AMD-Ryzen-5-5000-Series-20l2.jpg">
+                            <source media="(min-width: 800px)" srcset="images/AMD-Ryzen-5-5000-Series-20.jpg">
+                            <img src="images/AMD-Ryzen-5-5000-Series-20.jpg" alt="DarrexHD">
+                        </picture>
+                    </a>
+                </figure>
+                <p>AMD acaba de presentar<a href="./articles/Noticia1.html">...Leer más</a></p>
+            </article>
+            <article>
+                <h2><a href="./articles/Noticia2.html">La nueva arquitectura Zen 3</a></h2>
+                <figure>
+                    <a href="./articles/Noticia2.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="images/Zen3750.png">
+                            <source media="(min-width: 800px)" srcset="images/Zen3.png">
+                            <img src="images/Zen3.png" alt="XD">
+                        </picture>
+                    </a>
+                </figure>
+                <p>La frecuencia de reloj máxima<a href="./articles/Noticia2.html">...Leer más</a>
+                </p>
+            </article>
+        </section>
+        <section class="section2">
+            <h2>Novedades de AMD</h2>
+            <article>
+                <h2 id="Lomasnuevo"><a href="./articles/Noticia3.html">Filtraciones sobre los Ryzen 6000</a></h2>
+                <figure>
+                    <a href="./articles/Noticia3.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./images/Ryzen6000R.jpg">
+                            <source media="(min-width: 800px)" srcset="./images/Ryzen6000.jpg">
+                            <img src="./images/Ryzen6000.jpg" alt="6000">
+                        </picture>
+                    </a>
+                </figure>
+                <p>Ya se comienza a hablar de los Ryzen 6000<a
+                        href="./articles/Noticia3.html">...Leer
+                        más</a></p>
+            </article>
+            <article>
+                <h2><a href="./articles/Noticia4.html">Nuevas Gráficas de AMD</a></h2>
+                <figure>
+                    <a href="./articles/Noticia4.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./images/RX6000R.jpg">
+                            <source media="(min-width: 800px)" srcset="./images/RX6000.jpg">
+                            <img src="./images/RX6000.jpg" alt="graficas6000">
+                        </picture>
+                    </a>
+                </figure>
+                <p>AMD ha presentado las nuevas gráficas<a href="./articles/Noticia4.html">...Leer
+                        más</a>
+                </p>
+            </article>
+        </section>
+        <section class="section3">
+            <h2 class="Drro">Noticias de AMD Radeon</h2>
+            <article>
+                <h2 id="graficasamd"><a href="./articles/Noticia5.html">Ray Tracing en las gráficas de AMD</a></h2>
+                <figure>
+                    <a href="./articles/Noticia5.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./images/RTXR.jpg">
+                            <source media="(min-width: 800px)" srcset="./images/RTX.jpg">
+                            <img src="./images/RTX.jpg" alt="raytracing">
+                        </picture>
+                    </a>
+                </figure>
+                <p class="Drrox">Finalmente la tecnología de trazado de rayos llega a AMD<a
+                        href="./articles/Noticia5.html">...Leer más</a></p>
+            </article>
+            <article>
+                <h2><a href="./articles/Noticia6.html">La tecnología de las consolas de última
+                        generación
+                        en tu ordenador</a></h2>
+                <figure>
+                    <a href="./articles/Noticia6.html">
+                        <picture>
+                            <source media="(max-width: 799px)" srcset="./images/RDNA2R.jpg">
+                            <source media="(min-width: 800px)" srcset="images/RDNA2.jpg">
+                            <img src="images/RDNA2.jpg" alt="RDNA2">
+                        </picture>
+                    </a>
+                </figure>
+                <p class="Drrox">Lás graficas de PS5 y Xbox Series X<a href="./articles/Noticia6.html">...Leer
+                        más</a>
+                </p>
+            </article>
+        </section>
+    </main>
     <footer>
-        <p style="color: white;">Alumno: Óscar Avecilla Barrios</p>
-        <p style="color: white;">Asignatura: TIC II</p>
-        <p style="color: white;">Curso:2020-2021</p>
+        <p>Alumno: Óscar Avecilla Barrios</p>
+        <p>Asignatura: TIC II</p>
+        <p>Curso:2020-2021</p>
     </footer>
 </body>
 
