@@ -88,3 +88,9 @@ li{
 legend{
     color: white
 }
+.oculto {
+    display: none;
+}
+.visible {
+    display: inline;
+}
